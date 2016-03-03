@@ -29,4 +29,19 @@ module.exports = [
         level : 4,
         type : "frontend"
     },
+    {
+        name : "Spanish",
+        level : 5,
+        type : "language"
+    },
+    {
+        name : "English",
+        level : 3,
+        type : "language"
+    },
+    {
+        name : "Catalan",
+        level : 5,
+        type : "language"
+    },
 ];

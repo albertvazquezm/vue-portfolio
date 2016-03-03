@@ -12,14 +12,11 @@ module.exports =  {
     props : [
         'filterType'
     ],
-    data : () => {
-        var self = this;
-        var skills = skillsData.filter((skill) => {
-            return skill.type === self.filterType;
-        });
-        console.log(skills);
-        return {
-            skills : skills
+    computed : {
+        skills : function(){
+            return skillsData.filter((skill) => {
+                return skill.type === this.filterType;
+            });
         }
     }
 };

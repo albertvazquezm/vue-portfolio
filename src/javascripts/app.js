@@ -1,30 +1,11 @@
-import skills from './components/skills.component.js';
-import skillsData from '../data/skills.js';
+import skillsComponent from './components/skills.component.js';
+import projectsComponent from './components/projects.component.js';
 
 (function(exports){    
     var Vue = require('vue');
 
-    Vue.component('skills', {
-        template : `
-            <h2>Skills</h2>
-            <ul v-for="skill in skills">
-                <li>{{skill.name}}</li>
-            </ul>
-        `,
-        props : [
-            'filterType'
-        ],
-        data : () => {
-            var self = this;
-            var skills = skillsData.filter((skill) => {
-                return skill.type === self.filterType;
-            });
-            console.log(skills);
-            return {
-                skills : skills
-            }
-        }
-    });
+    Vue.component('skills', skillsComponent);
+    Vue.component('projects', projectsComponent);
 
     new Vue({
         el: '#app'
