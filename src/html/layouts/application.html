@@ -6,15 +6,22 @@
   <meta charset="utf-8">
   <title>{% block title %}Gulp Asset Pipeline{% endblock %}</title>
   <link rel="stylesheet" href="stylesheets/global.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
 </head>
 <body>
 
+    <header>
+        <h1>Albert Vàzquez</h1>
+        <h2>Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
+    </header>
     <!-- app -->
     <div id="app">
-      <skills filter-type="frontend"></skills>
-      <skills filter-type="backend"></skills>
+      <skills filter-type="frontend" title="Frontend"></skills>
+      <skills filter-type="backend" title="Backend"></skills>
+      <skills filter-type="misc" title="Global"></skills>
+      <skills filter-type="language" title="Language"></skills>
       <projects></projects>
     </div>
     <script src="javascripts/shared.js"></script>
