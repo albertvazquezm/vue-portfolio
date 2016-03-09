@@ -1,13 +1,18 @@
 'use strict';
 
-import skillsData from '../../data/skills.js';
+import skills from '../../data/skills.json';
 
-module.exports =  {
+var SkillsComponent = {
     template : `
-        <h2>{{title}}</h2>
-        <ul v-for="skill in skills">
-            <li>{{skill.name}}</li>
-        </ul>
+        <div class="skills">
+            <h2 class="subtitle is-4">{{title}}</h2>
+            <ul v-for="skill in skills | orderBy 'level' -1">
+                <li>
+                    <span class="name">{{skill.name}}</span>
+                    <span class="level">{{skill.level}}</span>
+                </li>
+            </ul>
+        </div>
     `,
     props : [
         'filterType',
@@ -15,10 +20,12 @@ module.exports =  {
     ],
     computed : {
         skills : function(){
-            return skillsData.filter((skill) => {
+            return skills.filter((skill) => {
                 return skill.type === this.filterType;
             });
         }
     }
-};
+}
+
+module.exports = SkillsComponent;
 
