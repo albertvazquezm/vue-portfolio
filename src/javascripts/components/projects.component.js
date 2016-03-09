@@ -5,9 +5,10 @@ import data from '../../data/projects.json';
 module.exports =  {
     template : `
         <div class="projects">
-            <h2 class="subtitle is-4">Projects</h2>
             <article v-for="project in projects">
-                <h3>{{project.role}}</h3><span class="top-bullet">{{project.time}}</span>
+                <h3 class="subtitle is-5">{{project.role}}</h3>
+                <span class="top-bullet">{{project.time}}</span>
+                <div class="clearfix"></div>
                 <span class="subtitle1">{{project.name}}</span>
                 for
                 <span class="subtitle2">{{project.client}}</span>
@@ -18,7 +19,7 @@ module.exports =  {
                 <span v-for="library in project.libraries" class="tag is-warning">
                     {{library}}
                 </span>
-                <a href="{{project.url}}">{{project.url}}</a>
+                <a href="{{project.url}}" target="_blank">{{project.url}}</a>
             </article>
         </div>
     `,

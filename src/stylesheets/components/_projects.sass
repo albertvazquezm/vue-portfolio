@@ -1,4 +1,28 @@
 #projects-section
     .projects
-        padding: 20px;
         article
+            margin: 20px;
+            padding: 20px;
+            @include simple-smooth-border();
+            h3
+                float: left;
+                margin-bottom: 5px;
+            .top-bullet
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+                text-align: center;
+                float: right;
+                background: $yellow;
+                padding-top: 3px;
+            .subtitle1
+            .subtitle2
+                color: $red;
+            .description
+                margin: 20px 0;
+            .tag
+                margin-right: 5px;
+                &.is-success
+                    float: left;
+            a
+                float: right;
