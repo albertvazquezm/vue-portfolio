@@ -13,16 +13,20 @@
 <body>
 
     <header>
-        <h1>Albert Vàzquez</h1>
-        <h2>Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
+        <h1 class="title is-2">Albert Vàzquez</h1>
+        <h2 class="subtitle is-3">Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
     </header>
     <!-- app -->
     <div id="app">
-      <skills filter-type="frontend" title="Frontend"></skills>
-      <skills filter-type="backend" title="Backend"></skills>
-      <skills filter-type="misc" title="Global"></skills>
-      <skills filter-type="language" title="Language"></skills>
-      <projects></projects>
+        <section id="skills-section">
+            <skills filter-type="frontend" title="Frontend"></skills>
+            <skills filter-type="backend" title="Backend"></skills>
+            <skills filter-type="misc" title="Global"></skills>
+            <skills filter-type="language" title="Language"></skills>
+        </section>
+        <section id="projects-section">
+            <projects></projects>
+        </section>
     </div>
     <script src="javascripts/shared.js"></script>
     <script src="javascripts/app.js"></script>
