@@ -11,22 +11,38 @@
   {% block head %}{% endblock %}
 </head>
 <body>
-
-    <header>
-        <h1 class="title is-2">Albert Vàzquez</h1>
-        <h2 class="subtitle is-3">Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
-    </header>
     <!-- app -->
     <div id="app">
+        <header>
+            <h1 class="title is-2">Albert Vàzquez</h1>
+            <h2 class="subtitle is-4">Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
+        </header>
+
+        <nav class="general">
+            <ul>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Personal</li>
+            </ul>
+        </nav>
+
         <section id="skills-section">
             <skills filter-type="frontend" title="Frontend"></skills>
             <skills filter-type="backend" title="Backend"></skills>
             <skills filter-type="misc" title="Global"></skills>
             <skills filter-type="language" title="Language"></skills>
         </section>
-        <section id="projects-section">
+
+        <footer>
+            <nav class="links">
+                <ul>
+
+                </ul>
+            </nav>
+        </footer>
+        <!--<section id="projects-section">
             <projects></projects>
-        </section>
+        </section>-->
     </div>
     <script src="javascripts/shared.js"></script>
     <script src="javascripts/app.js"></script>
