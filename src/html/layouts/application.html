@@ -7,41 +7,106 @@
   <title>{% block title %}Gulp Asset Pipeline{% endblock %}</title>
   <link rel="stylesheet" href="stylesheets/global.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
 </head>
 <body>
     <!-- app -->
     <div id="app">
-        <header>
-            <h1 class="title is-2">Albert Vàzquez</h1>
-            <h2 class="subtitle is-4">Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
-        </header>
+        <div class="main">
+            <header>
+                <ul class="links">
+                    <li>
+                        <a href="https://github.com/albertvazquezm" target="_blank">
+                            <i class="fa fa-github"></i>
+                            /albertvazquezm
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://es.linkedin.com/in/albertvazquezm" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                            albertvazquezm
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:hola@albertvazquez.es" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                            hola@albertvazquez.es
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <section class="jumbo">
+                <h1>Hi, I'm Albert</h1>
+                <h2>A Sr. JavaScript Developer, Frontend Ninja & Angular Expert from Barcelona. </h2>
+                <div class="enjoy">
+                    <p><strong>I enjoy Building complete applications using JavaScript</strong>. From UX (I'm not a designer) to deploy. My code is clean, reusable, documented and follows well-known design patterns. Performance is a must. My deep knowledge about frontend, including HTML5, CSS3 & JavaScript plus latest browser features enables me developing today's web applications. I have also experience in NodeJS environments connecting both NoSQL and SQL databases.</p>
+                </div>
+                <div class="tips">
+                    <div class="tip">
+                        <h3>Pinned tabs</h3>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3>hola</h3>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <!--<h2>Projects</h2>-->
+                <projects>
+                </projects>
+            </section>
+            <footer>
+                <nav class="links">
+                    <ul>
 
-        <nav class="general">
-            <ul>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Personal</li>
-            </ul>
-        </nav>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+        <aside class="aside">
+            <h2>Skills</h2>
+            <div class="legend">
+                <ul>
+                    <li>
+                        <span class="score">1</span>
+                        <i class="fa fa-long-arrow-right"></i> Basic understanding</li>
+                    <li>
+                        <span class="score">2</span>
+                        <i class="fa fa-long-arrow-right"></i> Tried it</li>
+                    <li>
+                        <span class="score">3</span>
+                        <i class="fa fa-long-arrow-right"></i> Tried it in production</li>
+                    <li>
+                        <span class="score">4</span>
+                        <i class="fa fa-long-arrow-right"></i> Good global knowledge</li>
+                    <li>
+                        <span class="score">5</span>
+                        <i class="fa fa-long-arrow-right"></i> Deep knowledge</li>
+                </ul>
+            </div>
+            <skills filter-type="main" title="Main abilities"></skills>
+            <skills filter-type="language" title="Language"></skills>
+            <skills filter-type="misc" title="Other"></skills>
+            <skills filter-type="library" title="Libraries & Tools"></skills>
+        </aside>
 
-        <section id="skills-section">
-            <skills filter-type="frontend" title="Frontend"></skills>
+        <!--<section id="skills-section">
             <skills filter-type="backend" title="Backend"></skills>
             <skills filter-type="misc" title="Global"></skills>
             <skills filter-type="language" title="Language"></skills>
-        </section>
+        </section>-->
 
-        <footer>
-            <nav class="links">
-                <ul>
 
-                </ul>
-            </nav>
-        </footer>
         <!--<section id="projects-section">
-            <projects></projects>
         </section>-->
     </div>
     <script src="javascripts/shared.js"></script>

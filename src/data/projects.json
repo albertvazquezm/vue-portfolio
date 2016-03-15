@@ -27,8 +27,36 @@ module.exports = [
          "NodeJS",
          "Grunt"
       ],
-      "role": "JavaScript Developer",
+      "role": "NodeJS JavaScript Developer",
       "time": "2m",
       "timeType": "Part Time"
-   }
+   },
+    {
+      "name": "Enables",
+      "client": "The Mobile Bakery",
+      "skills": [
+         "JavaScript"
+      ],
+      "libraries": [
+         "NodeJS",
+         "Grunt"
+      ],
+      "role": "Frontend JavaScript Developer",
+      "time": "2m",
+      "timeType": "Part Time"
+   },
+    {
+      "name": "Telefèric TPV",
+      "client": "Altran Spain",
+      "skills": [
+         "JavaScript"
+      ],
+      "libraries": [
+         "AngularJS",
+         "Grunt"
+      ],
+      "role": "Frontend JavaScript Developer",
+      "time": "2m",
+      "timeType": "Part Time"
+   },
 ];

@@ -1,19 +1,13 @@
-#skills-section
-    display: flex;
-    flex-flow: row wrap;
-    .skills
-        flex: 1;
-        padding: 2rem;
-        ul
-            li
-                margin: 8px 0;
-                padding: 4px;
-                @include simple-smooth-border();
-                min-width: 200px;
-                span.level
-                    float: right;
-                    background: $yellow;
-                    width: 1.5rem;
-                    height: 1.5rem;
-                    text-align: center;
-                    border-radius: 3px;
+
+.skills
+    h4
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px #fff solid;
+        padding: 0 0 10px;
+        margin: 0 0 10px;
+    ul
+        li
+            margin: 8px 0;
+            span.score
+                float: right;

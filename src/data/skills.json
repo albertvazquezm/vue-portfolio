@@ -2,37 +2,37 @@ module.exports = [
    {
       "name": "HTML5",
       "level": 5,
-      "type": "frontend"
+      "type": "main"
    },
    {
       "name": "CSS3",
       "level": 5,
-      "type": "frontend"
+      "type": "main"
    },
    {
       "name": "JavaScript",
       "level": 5,
-      "type": "frontend"
+      "type": "main"
    },
    {
       "name": "MongoDB",
       "level": 3,
-      "type": "backend"
+      "type": "main"
    },
    {
       "name": "NodeJS",
       "level": 3,
-      "type": "backend"
+      "type": "main"
    },
    {
       "name": "ES6",
       "level": 4,
-      "type": "frontend"
+      "type": "main"
    },
    {
       "name": "PHP",
       "level": 2,
-      "type": "backend"
+      "type": "main"
    },
    {
       "name": "Spanish",
@@ -41,7 +41,7 @@ module.exports = [
    },
    {
       "name": "English",
-      "level": 3,
+      "level": 4,
       "type": "language"
    },
    {
@@ -65,8 +65,122 @@ module.exports = [
       "type": "misc"
    },
    {
-      "name": "Git",
+      "name": "Git (& Git Flow)",
       "level": 4,
       "type": "misc"
-   }
+   },
+    {
+      "name": "Cross Browser (IE9+)",
+      "level": 4,
+      "type": "misc"
+   },
+    {
+      "name": "AngularJS",
+      "level": 5,
+      "type": "library"
+   },
+   {
+      "name": "VueJS",
+      "level": 3,
+      "type": "library"
+   },
+   {
+      "name": "BackboneJS",
+      "level": 2,
+      "type": "library"
+   },
+   {
+      "name": "SASS",
+      "level": 5,
+      "type": "library"
+   },
+   {
+      "name": "Bootstrap",
+      "level": 5,
+      "type": "library"
+   },
+   {
+      "name": "Foundation",
+      "level": 3,
+      "type": "library"
+   },
+   {
+      "name": "Gulp",
+      "level": 4,
+      "type": "library"
+   },
+   {
+      "name": "Grunt",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "PouchDB",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "CouchDB",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "Angular 2",
+      "level": 2,
+      "type": "library"
+   },
+    {
+      "name": "REDUX",
+      "level": 1,
+      "type": "library"
+   },
+    {
+      "name": "Ink (Email Styling)",
+      "level": 2,
+      "type": "library"
+   },
+    {
+      "name": "Google Maps API",
+      "level": 4,
+      "type": "library"
+   },
+    {
+      "name": "Meteor",
+      "level": 2,
+      "type": "library"
+   },
+    {
+      "name": "Websockets",
+      "level": 2,
+      "type": "library"
+   },
+    {
+      "name": "Ionic",
+      "level": 2,
+      "type": "library"
+   },{
+      "name": "ExpressJS",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "ReactJS",
+      "level": 2,
+      "type": "library"
+   },
+    {
+      "name": "Karma",
+      "level": 4,
+      "type": "library"
+   },
+    {
+      "name": "Jasmine",
+      "level": 4,
+      "type": "library"
+   },
+    {
+      "name": "Heroku",
+      "level": 2,
+      "type": "library"
+   },
 ];

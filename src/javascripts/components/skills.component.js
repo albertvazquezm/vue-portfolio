@@ -5,11 +5,11 @@ import skills from '../../data/skills.json';
 var SkillsComponent = {
     template : `
         <div class="skills">
-            <h2 class="subtitle is-4">{{title}}</h2>
+            <h4>{{title}}</h4>
             <ul v-for="skill in skills | orderBy 'level' -1">
                 <li>
                     <span class="name">{{skill.name}}</span>
-                    <span class="level">{{skill.level}}</span>
+                    <span class="score">{{skill.level}}</span>
                 </li>
             </ul>
         </div>

@@ -1,29 +1,35 @@
-#projects-section
-    .projects
-        article
-            margin: 20px;
-            padding: 20px;
-            @include simple-smooth-border();
-            h3
+section.projects
+    background: #f3f3f3;
+    padding: 50px;
+    h2
+        font-size: 32px;
+    article
+        margin: 30px 0;
+        padding-bottom: 30px;
+        border-bottom: 4px #fff solid;
+        h3
+            font-weight: bold;
+            float: left;
+            margin-bottom: 5px;
+        .top-bullet
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            text-align: center;
+            float: right;
+            background: $yellow;
+            padding-top: 3px;
+        .subtitle1
+            text-decoration: underline;
+        .subtitle2
+            color: $red;
+        .description
+            margin: 20px 0;
+        .tag
+            margin-right: 5px;
+            &.is-success
                 float: left;
-                margin-bottom: 5px;
-            .top-bullet
-                width: 2rem;
-                height: 2rem;
-                border-radius: 50%;
-                text-align: center;
-                float: right;
-                background: $yellow;
-                padding-top: 3px;
-            .subtitle1
-                text-decoration: underline;
-            .subtitle2
-                color: $red;
-            .description
-                margin: 20px 0;
-            .tag
-                margin-right: 5px;
-                &.is-success
-                    float: left;
-            a
-                float: right;
+        a
+            float: right;
+        &:last-child
+            border-bottom: 0;
