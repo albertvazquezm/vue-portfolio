@@ -1,35 +1,46 @@
 section.projects
-    background: #f3f3f3;
     padding: 50px;
     h2
         font-size: 32px;
     article
         margin: 30px 0;
         padding-bottom: 30px;
-        border-bottom: 4px #fff solid;
-        h3
+        border-bottom: 2px $yellow solid;
+        h3.subtitle
             font-weight: bold;
             float: left;
             margin-bottom: 5px;
         .top-bullet
-            width: 2rem;
-            height: 2rem;
-            border-radius: 50%;
+            padding: 5px;
+            border-radius: 20px
             text-align: center;
             float: right;
             background: $yellow;
             padding-top: 3px;
+            font-weight: bold;
         .subtitle1
-            text-decoration: underline;
+
         .subtitle2
             color: $red;
+            font-weight: bold;
         .description
-            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            .description-block
+                flex-grow: 1;
+                margin: 10px 0;
+                padding: 10px;
+                background: #eee;
+                margin-right: 10px;
+                &:last-child
+                    margin-right: 0;
         .tag
             margin-right: 5px;
             &.is-success
                 float: left;
         a
             float: right;
+            i
+                padding: 4px 6px;
         &:last-child
             border-bottom: 0;

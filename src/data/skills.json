@@ -183,4 +183,25 @@ module.exports = [
       "level": 2,
       "type": "library"
    },
+    {
+      "name": "Font Awesome",
+      "level": 5,
+      "type": "library"
+   },
+    {
+      "name": "Webpack",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "Browserify",
+      "level": 3,
+      "type": "library"
+   },
+    {
+      "name": "JWT (JSON Web Tokens)",
+      "level": 3,
+      "type": "library"
+   }
 ];
+
