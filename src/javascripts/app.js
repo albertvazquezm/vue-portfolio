@@ -1,18 +1,15 @@
 import skillsComponent from './components/skills.component.js';
 import projectsComponent from './components/projects.component.js';
 import linksComponent from './components/links.component.js';
-import anim from 'animations';
+import Vue from 'vue';
 
-(function(exports){    
-    var Vue = require('vue');
+Vue.config.debug = true;
 
-    Vue.config.debug = true;
+Vue.component('skills', skillsComponent);
+Vue.component('projects', projectsComponent);
+Vue.component('links', linksComponent);
 
-    Vue.component('skills', skillsComponent);
-    Vue.component('projects', projectsComponent);
-    Vue.component('links', linksComponent);
+new Vue({
+    el: '#app'
+});
 
-    new Vue({
-        el: '#app'
-    });
-})(window);

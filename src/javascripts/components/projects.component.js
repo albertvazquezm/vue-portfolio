@@ -8,7 +8,7 @@ module.exports =  {
             <article v-for="project in projects">
                 <h3 class="subtitle is-5">{{project.role}}</h3>
                 <span class="top-bullet">{{project.time}}</span>
-                <div class="clearfix"></div>
+                <div class="is-clearfix"></div>
                 <span class="subtitle1">{{project.name}}</span>
                 for
                 <span class="subtitle2">{{project.client}}</span>

@@ -23,8 +23,7 @@
       "entries": {
         "app": [
             "./app.js",
-            "./animations.js",
-            "../../node_modules/hammerjs/hammer.js"
+            "./modules/**/*.js",
         ]
       },
       "extensions": ["js"]
