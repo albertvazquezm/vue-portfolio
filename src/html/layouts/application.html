@@ -5,6 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title>{% block title %}Gulp Asset Pipeline{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="stylesheets/global.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -18,48 +19,48 @@
         <div class="main">
             <header>
                 <ul class="links">
-                    <li>
+                    <li class="link">
                         <a href="https://github.com/albertvazquezm" target="_blank">
                             <i class="fa fa-github"></i>
-                            /albertvazquezm
+                            <span class="hidden-sm">/albertvazquezm</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="link">
                         <a href="https://es.linkedin.com/in/albertvazquezm" target="_blank">
                             <i class="fa fa-linkedin"></i>
-                            albertvazquezm
+                            <span class="hidden-sm">albertvazquezm</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="mail">
                         <a href="mailto:hola@albertvazquez.es">
-                            <i class="fa fa-envelope"></i>
-                            hola@albertvazquez.es
+                            <i class="fa fa-envelope hidden-sm"></i>
+                            <span class="email">hola@albertvazquez.es</span>
                         </a>
                     </li>
                 </ul>
             </header>
             <section class="jumbo">
-                <h1>Hi, I'm Albert</h1>
+                <h1 class="section-title">Hi, I'm Albert</h1>
                 <h2>A Sr. JavaScript Developer, Frontend Ninja & Angular Expert from Barcelona. </h2>
                 <div class="enjoy">
                     <p><strong>I enjoy Building complete applications using JavaScript</strong>. From UX (I'm not a designer) to deploy. My code is clean, reusable, documented and follows well-known design patterns. Performance is a must. My deep knowledge about frontend, including HTML5, CSS3 & JavaScript plus latest browser features enables me developing today's web applications. I have also experience in NodeJS environments connecting both NoSQL and SQL databases.</p>
                 </div>
             </section>
             <section class="projects">
-                <!--<h2>Projects</h2>-->
+                <h2 class="section-title">Projects</h2>
                 <projects>
                 </projects>
             </section>
             <footer>
-                <nav class="links">
-                    <ul>
-
-                    </ul>
-                </nav>
+                <span class="arrow left">
+                    <i class="fa fa-long-arrow-left"></i> Projects
+                </span><span class="arrow right">
+                     Skills <i class="fa fa-long-arrow-right"></i>
+                </span>
             </footer>
         </div>
         <aside class="aside">
-            <h2>Skills</h2>
+            <h2 class="section-title">Skills</h2>
             <div class="legend">
                 <ul>
                     <li>
@@ -84,17 +85,8 @@
             <skills filter-type="misc" title="Other"></skills>
             <skills filter-type="library" title="Libraries & Tools"></skills>
         </aside>
-
-        <!--<section id="skills-section">
-            <skills filter-type="backend" title="Backend"></skills>
-            <skills filter-type="misc" title="Global"></skills>
-            <skills filter-type="language" title="Language"></skills>
-        </section>-->
-
-
-        <!--<section id="projects-section">
-        </section>-->
     </div>
+
     <script src="javascripts/shared.js"></script>
     <script src="javascripts/app.js"></script>
 </body>

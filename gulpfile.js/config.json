@@ -22,7 +22,9 @@
       "extractSharedJs": true,
       "entries": {
         "app": [
-            "./app.js"
+            "./app.js",
+            "./animations.js",
+            "../../node_modules/hammerjs/hammer.js"
         ]
       },
       "extensions": ["js"]

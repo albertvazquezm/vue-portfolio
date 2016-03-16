@@ -1,0 +1,38 @@
+@media (max-width: 770px)
+    #app
+        header
+            .links
+                float: none;
+                a
+                    font-size: 1rem;
+                i
+                    font-size: 1.5rem;
+                .link
+                    float: left;
+                .mail
+                    float: right;
+
+
+        font-size: 13px;
+        height: 100%;
+        .main
+            width: 100%;
+            section.projects
+                position: fixed;
+                z-index: 9000;
+                top: 0;
+                bottom: 0;
+                background: #fff;
+                overflow: scroll;
+                transform: translate(-100%);
+        .aside
+            width: 100%;
+            position: absolute;
+            overflow: scroll;
+            transform: translate(100%);
+        section.jumbo
+            padding: 20px;
+            h2
+                font-size: 1.75em;
+        .hidden-sm
+            display: none;
