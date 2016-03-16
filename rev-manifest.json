@@ -16,8 +16,7 @@
   "fonts/icons.woff2": "fonts/icons-d3d53d542e.woff2",
   "images/gulp-starter-logo.png": "images/gulp-starter-logo-d34866d991.png",
   "images/gulp.png": "images/gulp-743c01b886.png",
-  "javascripts/app.js": "javascripts/app-7b50b1ad3d9d1f16e48a.js",
-  "javascripts/page.js": "javascripts/page-7b50b1ad3d9d1f16e48a.js",
-  "javascripts/shared.js": "javascripts/shared-7b50b1ad3d9d1f16e48a.js",
-  "stylesheets/global.css": "stylesheets/global-43c24eb442.css"
+  "javascripts/app.js": "javascripts/app-74d2ed30b0794be0fd76.js",
+  "javascripts/shared.js": "javascripts/shared-74d2ed30b0794be0fd76.js",
+  "stylesheets/global.css": "stylesheets/global-fd417ed7f1.css"
 }
