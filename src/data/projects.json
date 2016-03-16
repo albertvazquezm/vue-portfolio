@@ -153,5 +153,39 @@ module.exports = [
       ],
       "role": "Frontend Developer & UX Specialist",
       "time": "4m",
+   },
+    {
+      "name": "Boats Rent Website",
+      "client": "IMESMES",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3"
+
+      ],
+        "roleDescription": "Design and build responsive website for selling and renting boats. I was responsible of frontend part and helped backend developer with PHP",
+        "projectDescription": "Responsive website based on Bootstrap and animated using CSS3. jQuery for some dynamic interactions.",
+      "libraries": [
+         "jQuery",
+         "SASS"
+      ],
+      "role": "Frontend Developer & PHP Helper",
+      "time": "7m",
+   },
+    {
+      "name": "ECRAN Website",
+      "client": "HAVAS Media",
+      "skills": [
+         "HTML5",
+         "CSS3"
+      ],
+        "roleDescription": "Build responsive layout based on given designs in PSD for important cosmetics brand worldwide",
+        "projectDescription": "Responsive website with pure CSS from given PSD",
+      "libraries": [
+         "SASS"
+      ],
+      "role": "Frontend Developer",
+      "time": "4m",
+        "url": "http://somosecran.com"
    }
 ];
