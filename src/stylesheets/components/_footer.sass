@@ -1,0 +1,32 @@
+footer
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .arrow
+        padding: 20px;
+        animation-duration: $arrows-animation-duration;
+        i
+            padding: 2px;
+        &.right
+            float: right;
+            animation-name: rightArrow;
+        &.left
+            float: left;
+            animation-name: leftArrow;
+
+@keyframes rightArrow
+    0%
+        margin-right: 0px;
+    80%
+        margin-right: $arrows-animation-distance;
+    100%
+        margin-right: 0px;
+
+@keyframes leftArrow
+    0%
+        margin-left: 0px;
+    80%
+        margin-left: $arrows-animation-distance;
+    100%
+        margin-left: 0px;

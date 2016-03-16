@@ -3,46 +3,85 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>{% block title %}Gulp Asset Pipeline{% endblock %}</title>
-  <link rel="stylesheet" href="stylesheets/global.css">
+    <meta charset="utf-8">
+    <title>Albert Vàzquez | Sr. JavaScript Developer, Frontend Ninja & Angular Expert from Barcelona | Freelance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/global.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-  {% include "shared/app-icons.html" %}
-  {% block head %}{% endblock %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- app -->
     <div id="app">
-        <header>
-            <h1 class="title is-2">Albert Vàzquez</h1>
-            <h2 class="subtitle is-4">Sr. JavaScript Developer, Frontend Ninja & Angular Lover</h2>
-        </header>
-
-        <nav class="general">
-            <ul>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Personal</li>
-            </ul>
-        </nav>
-
-        <section id="skills-section">
-            <skills filter-type="frontend" title="Frontend"></skills>
-            <skills filter-type="backend" title="Backend"></skills>
-            <skills filter-type="misc" title="Global"></skills>
-            <skills filter-type="language" title="Language"></skills>
-        </section>
-
-        <footer>
-            <nav class="links">
-                <ul>
-
+        <div class="main">
+            <header>
+                <span class="tag is-danger">No-mobile BETA!</span>
+                <ul class="links">
+                    <li class="link">
+                        <a href="https://github.com/albertvazquezm" target="_blank">
+                            <i class="fa fa-github"></i>
+                            <span class="hidden-sm">/albertvazquezm</span>
+                        </a>
+                    </li>
+                    <li class="link">
+                        <a href="https://es.linkedin.com/in/albertvazquezm" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                            <span class="hidden-sm">albertvazquezm</span>
+                        </a>
+                    </li>
+                    <li class="mail">
+                        <a href="mailto:hola@albertvazquez.es">
+                            <i class="fa fa-envelope hidden-sm"></i>
+                            <span class="email">hola@albertvazquez.es</span>
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-        </footer>
-        <!--<section id="projects-section">
-            <projects></projects>
-        </section>-->
+            </header>
+            <section class="jumbo">
+                <h1 class="section-title">Hi, I'm Albert</h1>
+                <h2>A Sr. JavaScript Developer, Frontend Ninja & Angular Expert from Barcelona. </h2>
+                <div class="enjoy">
+                    <p><strong>I enjoy Building complete applications using JavaScript</strong>. From UX (I'm not a designer) to deploy. My code is clean, reusable, documented and follows well-known design patterns. Performance is a must. My deep knowledge about frontend, including HTML5, CSS3 & JavaScript plus latest browser features enables me developing today's web applications. I have also experience in NodeJS environments connecting both NoSQL and SQL databases.</p>
+                </div>
+            </section>
+            <section class="projects">
+                <h2 class="section-title">Projects</h2>
+                <projects>
+                </projects>
+            </section>
+            <footer>
+                <span class="arrow left">
+                    <i class="fa fa-long-arrow-left"></i> Projects
+                </span><span class="arrow right">
+                     Skills <i class="fa fa-long-arrow-right"></i>
+                </span>
+            </footer>
+        </div>
+        <aside class="aside">
+            <h2 class="section-title">Skills</h2>
+            <div class="legend">
+                <ul>
+                    <li>
+                        <span class="score">1</span>
+                        <i class="fa fa-long-arrow-right"></i> Basic understanding</li>
+                    <li>
+                        <span class="score">2</span>
+                        <i class="fa fa-long-arrow-right"></i> Tried it</li>
+                    <li>
+                        <span class="score">3</span>
+                        <i class="fa fa-long-arrow-right"></i> Tried it in production</li>
+                    <li>
+                        <span class="score">4</span>
+                        <i class="fa fa-long-arrow-right"></i> Good global knowledge</li>
+                    <li>
+                        <span class="score">5</span>
+                        <i class="fa fa-long-arrow-right"></i> Deep knowledge</li>
+                </ul>
+            </div>
+            <skills filter-type="main" title="Main abilities"></skills>
+            <skills filter-type="language" title="Language"></skills>
+            <skills filter-type="misc" title="Other"></skills>
+            <skills filter-type="library" title="Libraries & Tools"></skills>
+        </aside>
     </div>
     <script src="javascripts/shared.js"></script>
     <script src="javascripts/app.js"></script>

@@ -14,21 +14,178 @@ module.exports = [
         "url": "http://desigual.com",
         "role": "Frontend JavaScript Developer",
         "time": "9m",
-        "description": "Development of",
-        "timeType": "Full Time"
+        "roleDescription": "Creating new features and maintain existing ones. I was responsible of AngularJS application architecture and ensuring its maintainability. I was in a team of 3 frontend developers. There was a team dedicated to layout.",
+        "projectDescription": "Desigual Ecommerce application based on AngularJS 1.4.* using NodeJS module system with Browserify."
    },
    {
       "name": "Shizaj",
       "client": "The Mobile Bakery",
       "skills": [
-         "JavaScript"
+         "JavaScript",
+          "NodeJS",
+
       ],
       "libraries": [
-         "NodeJS",
-         "Grunt"
+        "Grunt",
+        "JWT"
       ],
-      "role": "JavaScript Developer",
+        "roleDescription": "Developing from scratch a RESTful API for a mobile application. I also setted up environment and MongoDB databse. I wrote its documentation using Apiary.",
+        "projectDescription": "API Based on NodeJS, using ExpressJS connected to a MongoDB database. Authentication using JWT.",
+      "role": "NodeJS JavaScript Developer",
       "time": "2m",
       "timeType": "Part Time"
+   },
+    {
+      "name": "Enables",
+      "client": "The Mobile Bakery",
+      "skills": [
+         "JavaScript",
+          "HTML5",
+         "CSS3"
+      ],
+        "roleDescription": "Developing from scratch an AngularJS application for selling luxury services to tourist apartments. I leaded the project with a Jr. Frontend Developer and dealed with deadlines and client requirements.",
+        "projectDescription": "SPA application based on AngularJS, connected to RESTful API yet provided. We used grunt for task automation.",
+      "libraries": [
+          "AngularJS",
+         "Grunt",
+        "Bootstrap",
+        "SASS"
+
+      ],
+      "role": "Frontend JavaScript Developer",
+      "time": "2m",
+      "url": "https://enabl.es"
+   },
+    {
+      "name": "Talentapp",
+      "client": "Roadmapp",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3",
+          "NodeJS",
+         "MongoDB"
+      ],
+        "roleDescription": "Developing from scratch an AngularJS application for managing personal skills and abilities. I also built the RESTful API. I was co-owner of the project with a human resources consultant as partner.",
+        "projectDescription": "SPA application based on AngularJS, connected to RESTful API built with NodeJS and MongoDB. Responsive frontend using Bootstrap. Built result charts using a JavaScript library.",
+      "libraries": [
+         "AngularJS",
+         "Grunt",
+         "SASS",
+      ],
+      "role": "Full Stack JavaScript Developer",
+      "time": "1 year",
+   },
+    {
+      "name": "Telefèric TPV",
+      "client": "TMB (Transports Metropolitans de Barcelona)",
+      "skills": [
+         "JavaScript"
+      ],
+        "roleDescription": "Reinforcing the development in the last phase of the new AngularJS TPV, helping them to achieve the deadlines. I developed new modules and improved the existing ones.",
+        "projectDescription": "SPA application based on AngularJS, connected to RESTful API. Offline support catching requests. Designed for touchable screens. ",
+      "libraries": [
+         "AngularJS",
+         "Grunt",
+         "SASS",
+         "CouchDB",
+      ],
+      "role": "Frontend JavaScript Developer",
+      "time": "2m",
+      "timeType": "Part Time"
+   },
+     {
+      "name": "Custom ERP",
+      "client": "Xtremis",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3"
+
+      ],
+        "roleDescription": "Develop from scratch a complete ERP with features like billing, stock, warehouse, accounting and user management. Remote collaboration using time tracking system and SCRUM with other JavaScript developer.",
+        "projectDescription": "SPA application based on AngularJS 1.2.*, connected to RESTful API. Responsive design and TDD",
+      "libraries": [
+         "AngularJS",
+         "Grunt",
+         "SASS",
+         "Karma",
+         "Jasmine",
+      ],
+      "role": "Frontend JavaScript Developer",
+      "time": "4m",
+      "timeType": "Part Time"
+   },
+    {
+      "name": "Smart BIZ",
+      "client": "SC Trade Center",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3"
+
+      ],
+        "roleDescription": "Design and build responsive application layout for business contacts. I was the only responsible and dealed with client requirements.",
+        "projectDescription": "Responsive layout based on Bootstrap and animated using CSS3. jQuery for some dynamic interactions.",
+      "libraries": [
+         "Grunt",
+         "jQuery",
+         "SASS"
+      ],
+      "role": "Frontend Developer & UX Specialist",
+      "time": "2m",
+   },
+    {
+      "name": "Smart Community",
+      "client": "SC Trade Center",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3"
+
+      ],
+        "roleDescription": "Design and build responsive website for new community. I was the only responsible and dealed with client requirements.",
+        "projectDescription": "Responsive website based on Bootstrap and animated using CSS3. jQuery for some dynamic interactions.",
+      "libraries": [
+         "Grunt",
+         "jQuery",
+         "SASS"
+      ],
+      "role": "Frontend Developer & UX Specialist",
+      "time": "4m",
+   },
+    {
+      "name": "Boats Rent Website",
+      "client": "IMESMES",
+      "skills": [
+         "JavaScript",
+         "HTML5",
+         "CSS3"
+
+      ],
+        "roleDescription": "Design and build responsive website for selling and renting boats. I was responsible of frontend part and helped backend developer with PHP",
+        "projectDescription": "Responsive website based on Bootstrap and animated using CSS3. jQuery for some dynamic interactions.",
+      "libraries": [
+         "jQuery",
+         "SASS"
+      ],
+      "role": "Frontend Developer & PHP Helper",
+      "time": "7m",
+   },
+    {
+      "name": "ECRAN Website",
+      "client": "HAVAS Media",
+      "skills": [
+         "HTML5",
+         "CSS3"
+      ],
+        "roleDescription": "Build responsive layout based on given designs in PSD for important cosmetics brand worldwide",
+        "projectDescription": "Responsive website with pure CSS from given PSD",
+      "libraries": [
+         "SASS"
+      ],
+      "role": "Frontend Developer",
+      "time": "4m",
+        "url": "http://somosecran.com"
    }
 ];
