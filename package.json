@@ -17,7 +17,7 @@
     "demo": "gulp production && gulp server",
     "gulp": "gulp",
     "development": "gulp",
-    "test": "gulp production && karma start --single-run"
+    "test": "gulp production"
   },
   "dependencies": {
     "bulma": "0.0.16",
