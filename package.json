@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "bulma": "0.0.16",
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2",
     "vuex": "^0.6.2"
   },
   "devDependencies": {
