@@ -187,5 +187,21 @@ module.exports = [
       "role": "Frontend Developer",
       "time": "4m",
         "url": "http://somosecran.com"
+   },
+     {
+      "name": "Multiple projects",
+      "client": "Multiple clients",
+      "skills": [
+         "HTML5",
+         "CSS3",
+        "JavaScript"
+      ],
+        "roleDescription": "Build responsive applications for multiple clients, using bootstrap and integrating with Joomla and other CMS. jQuery and AJAX for dynamic interactions.",
+        "projectDescription": "I used bootstrap and foundation as frontend framework. PHP for backend connected to MySQL and JavaScript using AJAX for dynamic interactions",
+      "libraries": [
+         "jQuery"
+      ],
+      "role": "Full Stack Developer",
+      "time": "2 year"
    }
 ];
