@@ -17,10 +17,12 @@
     "demo": "gulp production && gulp server",
     "gulp": "gulp",
     "development": "gulp",
-    "test": "gulp production && karma start --single-run"
+    "test": "gulp production"
   },
   "dependencies": {
     "bulma": "0.0.16",
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2",
     "vuex": "^0.6.2"
   },
   "devDependencies": {
