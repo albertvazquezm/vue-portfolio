@@ -14,6 +14,11 @@ module.exports = [
       "level": 5,
       "type": "main"
    },
+    {
+      "name": "TypeScript",
+      "level": 3,
+      "type": "main"
+   },
    {
       "name": "MongoDB",
       "level": 3,
@@ -51,6 +56,11 @@ module.exports = [
    },
    {
       "name": "TDD",
+      "level": 3,
+      "type": "misc"
+   },
+    {
+      "name": "E2E",
       "level": 3,
       "type": "misc"
    },

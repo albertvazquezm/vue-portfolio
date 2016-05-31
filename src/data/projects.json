@@ -1,4 +1,24 @@
 module.exports = [
+    {
+        "name": "Resto-in Ecommerce",
+        "client": "Resto-in",
+        "skills": [
+         "JavaScript",
+         "HTML5"
+        ],
+        "libraries": [
+            "AngularJS",
+            "SASS",
+            "E2E",
+            "Jasmine",
+            "Gulp"
+        ],
+        "url": "http://www.resto-in.es",
+        "role": "Frontend JavaScript Developer",
+        "time": "now",
+        "roleDescription": "Creating new features and maintain existing ones. I was responsible of AngularJS application architecture and performance. I was in a team of 2 frontend developers. I developed features from architecture to implementation and testing",
+        "projectDescription": "Resto-in Ecommerce application based on AngularJS 1.4.* using browserify. Connected to API"
+   },
    {
         "name": "Desigual Ecommerce",
         "client": "Desigual",
