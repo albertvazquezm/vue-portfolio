@@ -11,6 +11,8 @@
     #app
         header
             width: 100%;
+            .container 
+                padding: 0 20px;
             .links
                 float: none;
                 a
@@ -27,23 +29,19 @@
         height: 100%;
         .main
             width: 100%;
-            section.projects
-                position: fixed;
-                z-index: 120;
-                top: 0;
-                bottom: 0;
-                background: #fff;
-                overflow: scroll;
-                transform: translate(-100%);
-        .aside
-            width: 100%;
-            position: fixed;
-            overflow: scroll;
-            transform: translate(100%);
+            height: auto;
+            overflow: auto;
         section.jumbo
-            padding: 20px;
+            padding: 100px 20px;
             h2
                 font-size: 1.75em;
+        section.projects 
+            padding: 50px 20px;
+        .aside
+            width: 100%;
+            margin-top: 40px;
+            overflow: auto;
+            height: auto;
         .hidden-sm
             display: none;
         footer
