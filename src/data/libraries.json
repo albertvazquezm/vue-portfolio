@@ -4,6 +4,11 @@ module.exports = [
       "level": 5,
       "type": "javascript"
    },
+    {
+      "name": "Angular 2.0",
+      "level": 3,
+      "type": "javascript"
+   },
    {
       "name": "VueJS",
       "level": 3,

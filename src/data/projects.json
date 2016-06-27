@@ -1,4 +1,23 @@
 module.exports = [
+        {
+                "name": "(Confidential) Water Meters Management Application",
+                "client": "A-C ING",
+                "skills": [
+                        "JavaScript",
+                        "TypeScript",
+                        "HTML5"
+                ],
+                "libraries": [
+                        "Angular 2.0",
+                        "SASS",
+                        "Gulp",
+                        "RxJS"
+                ],
+                "role": "Frontend JavaScript Developer",
+                "time": "now",
+                "roleDescription": "Build from scratch an Angular 2.0 application for managing water meters in some public facilities. Connected to Firebase API. Reactive programming",
+                "projectDescription": "Responsive Web application developed using TypeScript and Angular 2.0 for managing water meters in Spanish public facilities"
+        },
     {
         "name": "Resto-in Ecommerce",
         "client": "Resto-in",
@@ -15,8 +34,8 @@ module.exports = [
         ],
         "url": "http://www.resto-in.es",
         "role": "Frontend JavaScript Developer",
-        "time": "now",
-        "roleDescription": "Creating new features and maintain existing ones. I was responsible of AngularJS application architecture and performance. I was in a team of 2 frontend developers. I developed features from architecture to implementation and testing",
+        "time": "3m",
+        "roleDescription": "Improving AngularJS application performance from assets to architecture and cache management",
         "projectDescription": "Resto-in Ecommerce application based on AngularJS 1.4.* using browserify. Connected to API"
    },
    {
