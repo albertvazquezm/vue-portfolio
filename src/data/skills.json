@@ -94,7 +94,7 @@ module.exports = [
    },
     {
       "name": "Angular 2.0",
-      "level": 3,
+      "level": 4,
       "type": "library",
         "learning": true
    },
@@ -162,7 +162,7 @@ module.exports = [
    },
     {
       "name": "RxJS",
-      "level": 3,
+      "level": 4,
       "type": "library",
         "learning": true
    },{
@@ -172,7 +172,7 @@ module.exports = [
    },
     {
       "name": "ReactJS",
-      "level": 2,
+      "level": 4,
       "type": "library"
    },
     {
